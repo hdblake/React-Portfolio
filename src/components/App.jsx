@@ -1,9 +1,11 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./Home.jsx";
+
 export default function App() {
   return (
-    <>
-      <h1>
-        React & Vite template with Tailwind and other dependencies installed!
-      </h1>
-    </>
+    <Routes>
+      <Route index element={<Home />}></Route>
+      <Route path="/home" element={<Home />}></Route>
+    </Routes>
   );
 }
