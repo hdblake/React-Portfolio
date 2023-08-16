@@ -1,11 +1,15 @@
-import { Routes, Route } from "react-router-dom";
+import Header from "./Header.jsx";
 import Home from "./Home.jsx";
+import About from "./About.jsx";
 
 export default function App() {
   return (
-    <Routes>
-      <Route index element={<Home />}></Route>
-      <Route path="/home" element={<Home />}></Route>
-    </Routes>
+    <>
+      <Header />
+      <main className="grid grid-cols-1 gap-y-40 justify-items-center">
+        <Home />
+        <About />
+      </main>
+    </>
   );
 }
