@@ -1,12 +1,11 @@
-export default function Links({ url, name }) {
+export default function Links({ url, name, icon }) {
   return (
-    <a
-      className="text-main underline decoration-2 decoration-secondary font-bold text-xl hover:text-secondary hover:decoration-main"
-      href={url}
-      target="_blank"
-      rel="noreferrer"
-    >
-      {name}
-    </a>
+    <div className="flex justify-center items-center gap-x-2">
+      <a href={url} target="_blank" rel="noreferrer">
+        <button className="bg-gradient-to-r from-main to-secondary rounded-xl text-accent2 p-3 text-xl font-bold flex flex-row justify-evenly items-center w-40">
+          {name} {icon}
+        </button>
+      </a>
+    </div>
   );
 }
