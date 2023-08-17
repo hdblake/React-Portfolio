@@ -1,6 +1,7 @@
 import Header from "./Header.jsx";
 import Home from "./Home.jsx";
 import About from "./About.jsx";
+import Projects from "./Projects.jsx";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <main className="grid grid-cols-1 gap-y-40 justify-items-center">
         <Home />
         <About />
+        <Projects />
       </main>
     </>
   );
