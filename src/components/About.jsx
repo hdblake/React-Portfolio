@@ -23,14 +23,14 @@ export default function About() {
           love cheering on the Bears, Cubs, Bulls, and Blackhawks! In my free
           time, I love to spend time with my family, play games, and play golf!
         </p>
-        <div className="mt-10 flex flex-col gap-y-6 justify-center md:flex-row md:flex-wrap md:gap-x-20">
+        <div className="mt-10 flex flex-col gap-y-10 justify-center md:flex-row md:flex-wrap md:gap-x-20">
           <Links
-            url={"github.com/hdblake"}
+            url={"http://github.com/hdblake"}
             name={"GitHub"}
             icon={<GitHubIcon />}
           />
           <Links
-            url={"linkedin.com/in/hunter-blake"}
+            url={"https://www.linkedin.com/in/hunter-blake"}
             name={"LinkedIn"}
             icon={<LinkedInIcon />}
           />
