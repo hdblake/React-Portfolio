@@ -5,6 +5,7 @@ export const projects = [
     image: "../images/electrons.png",
     link: "https://electrons.vercel.app/",
     repo: "https://github.com/hdblake/Electrons-website",
+    created: "React and Tailwind",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const projects = [
     image: "../images/chamber.png",
     link: "hdblake.github.io/Chamber-of-Commerce/",
     repo: "https://github.com/hdblake/Chamber-of-Commerce",
+    created: "HTML/CSS and JavaScript",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const projects = [
     image: "../images/bountiful.png",
     link: "hdblake.github.io/Bountiful-Foods/",
     repo: "https://github.com/hdblake/Bountiful-Foods",
+    created: "HTML/CSS and JavaScript",
   },
   {
     id: 4,
@@ -26,5 +29,6 @@ export const projects = [
     image: "../images/sleepoutside.png",
     link: "https://sleep-outside-t10.netlify.app/",
     repo: "https://github.com/hdblake/sleepoutside-team10",
+    created: "HTML/CSS and JavaScript",
   },
 ];
