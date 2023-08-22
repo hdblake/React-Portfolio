@@ -6,7 +6,7 @@ export default function Projects() {
       <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-4 text-center font-bold">
         Projects
       </h1>
-      <div className="mt-8 flex flex-wrap justify-center">
+      <div className="mt-6 flex flex-wrap justify-center">
         {projects &&
           projects.map((project) => (
             <div

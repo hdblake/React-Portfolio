@@ -9,7 +9,7 @@ export default function About() {
       <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-4 text-center font-bold">
         About Me
       </h1>
-      <div className="mt-8 w-11/12 lg:w-3/5 m-auto flex flex-col justify-center">
+      <div className="mt-6 w-11/12 lg:w-3/5 m-auto flex flex-col justify-center">
         <p className="text-lg md:text-xl text-main text-center">
           I am in my Senior year at BYU - Idaho (attending online) and I am
           expected to graduate at the end of 2023 with my Bachelor&apos;s in
