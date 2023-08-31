@@ -1,5 +1,5 @@
-import Language from "./Language.jsx";
-import Framework from "./Framework.jsx";
+import Language from "./skills/Language.jsx";
+import Framework from "./skills/Framework.jsx";
 
 export default function Skills() {
   return (
