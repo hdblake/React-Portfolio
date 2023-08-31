@@ -3,7 +3,7 @@ import Framework from "./Framework.jsx";
 
 export default function Skills() {
   return (
-    <section id="skills">
+    <section id="skills" className="scroll-mt-28">
       <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-4 text-center font-bold">
         Skills
       </h1>

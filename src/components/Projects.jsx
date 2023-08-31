@@ -2,7 +2,7 @@ import { projects } from "../data/projects.js";
 
 export default function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className="scroll-mt-28">
       <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-4 text-center font-bold">
         Projects
       </h1>

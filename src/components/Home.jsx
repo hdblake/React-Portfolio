@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="home-container flex justify-center items-center"
+      className="home-container flex justify-center items-center scroll-mt-36"
     >
       <div className="flex flex-col items-center">
         <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-10 text-center font-bold">
