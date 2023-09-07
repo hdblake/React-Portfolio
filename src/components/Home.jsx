@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="home-container flex justify-center items-center scroll-mt-36"
+      className="home-container flex justify-center items-center scroll-mt-12"
     >
       <div className="flex flex-col items-center">
         <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-10 text-center font-bold">
@@ -19,7 +19,7 @@ export default function Home() {
           <p className="text-lg md:text-xl text-main text-center">
             Hello, my name is Hunter Blake! This is my Portfolio website created
             with React and Tailwind. I am a Front-End Developer with 2 years
-            worth of experience in creating full responsive and optimized
+            worth of experience in creating fully responsive and optimized
             websites. On here, you will learn a little bit about me, see some
             projects I have worked on, and a form where you can contact me! If
             you have any questions or want to get in touch, don&apos;t hesitate
