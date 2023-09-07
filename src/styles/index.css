@@ -9,3 +9,22 @@
 body {
   margin: 0 auto;
 }
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.responsive {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.responsive li {
+  display: block;
+  margin-bottom: 6px;
+}
