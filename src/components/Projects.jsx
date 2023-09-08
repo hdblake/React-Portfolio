@@ -8,7 +8,7 @@ export default function Projects() {
     fetch("data/projects.json")
       .then((response) => response.json())
       .then((projects) => setProjects(projects["projects"]));
-  });
+  }, []);
 
   return (
     <section id="projects" className="scroll-mt-8">
