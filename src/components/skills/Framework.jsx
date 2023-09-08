@@ -1,4 +1,4 @@
-import { frameworks } from "../../../public/data/skills";
+import { frameworks } from "../../data/skills";
 
 export default function Framework() {
   return (
