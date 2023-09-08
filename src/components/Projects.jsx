@@ -1,15 +1,6 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { projects } from "../data/projects";
 
 export default function Projects() {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    fetch("data/projects.json")
-      .then((response) => response.json())
-      .then((projects) => setProjects(projects.projects));
-  }, [projects]);
-
   return (
     <section id="projects" className="scroll-mt-8">
       <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-4 text-center font-bold">
