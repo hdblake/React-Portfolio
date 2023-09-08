@@ -7,7 +7,7 @@ export default function Projects() {
   useEffect(() => {
     fetch("data/projects.json")
       .then((response) => response.json())
-      .then((projects) => setProjects(projects["projects"]));
+      .then((projects) => setProjects(projects.projects));
   }, []);
 
   return (
