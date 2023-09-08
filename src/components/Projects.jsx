@@ -1,4 +1,4 @@
-import { projects } from "../data/projects.js";
+import { projects } from "../../public/data/projects";
 
 export default function Projects() {
   return (

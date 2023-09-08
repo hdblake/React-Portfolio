@@ -1,4 +1,4 @@
-import { languages } from "../../data/skills.js";
+import { languages } from "../../../public/data/skills";
 
 export default function Language() {
   return (
