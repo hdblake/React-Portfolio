@@ -2,6 +2,7 @@ import Links from "./Links.jsx";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FilePresentIcon from "@mui/icons-material/FilePresent";
+import Resume from "../images/My-Resume.pdf";
 
 export default function About() {
   return (
@@ -34,7 +35,7 @@ export default function About() {
             name={"LinkedIn"}
             icon={<LinkedInIcon />}
           />
-          <Links url={"#"} name={"Resume"} icon={<FilePresentIcon />} />
+          <Links url={Resume} name={"Resume"} icon={<FilePresentIcon />} />
         </div>
       </div>
     </section>
