@@ -1,4 +1,4 @@
-import { Selfie } from "../images/me.jpg";
+import Selfie from "../images/me.jpg";
 
 export default function Home() {
   return (
