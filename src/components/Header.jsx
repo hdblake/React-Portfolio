@@ -1,4 +1,5 @@
 import MenuIcon from "@mui/icons-material/Menu";
+import Logo from "../images/logo.webp";
 
 export default function Header() {
   function toggleMenu() {
@@ -11,7 +12,7 @@ export default function Header() {
     <header className="bg-accent3 shadow-lg mb-8">
       <div className="flex flex-row items-center justify-between m-auto p-5 w-full lg:w-3/4">
         <a href="#home">
-          <img src="images/logo.webp" alt="logo" width={190} height={59} />
+          <img src={Logo} alt="logo" width={190} height={59} />
         </a>
         <nav>
           <ul className="navigation flex flex-row">

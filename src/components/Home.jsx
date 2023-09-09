@@ -1,3 +1,5 @@
+import { Selfie } from "../images/me.jpg";
+
 export default function Home() {
   return (
     <section
@@ -10,7 +12,7 @@ export default function Home() {
         </h1>
         <div className="home-info w-11/12 lg:w-3/4 flex flex-col gap-y-8 lg:flex-row lg:gap-x-10 justify-center items-center">
           <img
-            src="images/me.jpg"
+            src={Selfie}
             alt="photo of me"
             width={351}
             height={351}
