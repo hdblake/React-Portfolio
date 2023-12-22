@@ -4,7 +4,7 @@ export default function Framework() {
   return (
     <div className="bg-accent2 border border-2 border-main rounded-xl p-4 shadow-lg m-2  w-[325px]">
       <h2 className="text-2xl text-center font-bold text-accent1 underline decoration-2 decoration-secondary">
-        Frameworks and Libraries
+        Frameworks/Libraries
       </h2>
       <ul>
         {frameworks &&
