@@ -10,22 +10,38 @@ body {
   margin: 0 auto;
 }
 
-.navigation li:first-child {
-  display: block;
-}
-
-.navigation li {
+.hamburger {
   display: none;
-}
-
-.responsive {
-  display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
+  cursor: pointer;
 }
 
-.responsive li {
-  display: block;
-  margin-bottom: 6px;
+.line {
+  width: 35px;
+  height: 5px;
+  background-color: #f25c05;
+  margin: 3px;
+}
+
+@media screen and (max-width: 410px) {
+  .menu.open {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+  }
 }
