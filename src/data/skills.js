@@ -5,7 +5,7 @@ import sql from "../icons/icons8-my-sql-48.png";
 import bootstrap from "../icons/icons8-bootstrap-48.png";
 import tailwind from "../icons/icons8-tailwindcss-48.png";
 import react from "../icons/icons8-react-48.png";
-import mui from "../icons/icons8-material-ui-48.png";
+import express from "../icons/icons8-express-js-48.png";
 
 export const languages = [
   {
@@ -48,7 +48,7 @@ export const frameworks = [
   },
   {
     id: 4,
-    name: "Material UI",
-    icon: mui,
+    name: "Node/ExpressJS",
+    icon: express,
   },
 ];
