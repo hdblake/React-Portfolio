@@ -12,17 +12,18 @@ export default function About() {
       </h1>
       <div className="mt-6 w-11/12 lg:w-3/5 m-auto flex flex-col justify-center">
         <p className="text-lg md:text-xl text-main text-center">
-          I am in my Senior year at BYU - Idaho (attending online) and I am
-          expected to graduate at the end of 2023 with my Bachelor&apos;s in
-          Applied Technology. My concentration has been in Web Development, with
-          most my concentration being on Front-End Development with some Backend
-          Development mixed in. I am passionate about technology, and that
-          passion is the main reason for my career switch. I view myself as
-          someone who is eager to learn new things and I am constantly looking
-          at ways I can improve to further my skills. I am also a huge sports
-          fan. Being from the Chicago, IL area I am a die-hard Chicago fan and
-          love cheering on the Bears, Cubs, Bulls, and Blackhawks! In my free
-          time, I love to spend time with my family, play games, and play golf!
+          I am a recent graduate from BYU - Idaho with my Bachelor&apos;s in
+          Applied Technology with a 3.94 GPA. My concentration has been in Web
+          Development, with most my concentration being on Front-End Development
+          with some Backend Development mixed in. Through school, I have 2.5
+          years of front-end experience and 1 year of backend experience. I am
+          passionate about technology, and that passion is the main reason for
+          my career switch. I view myself as someone who is eager to learn new
+          things and I am constantly looking at ways I can improve to further my
+          skills. I am also a huge sports fan. Being from the Chicago, IL area I
+          am a die-hard Chicago fan and love cheering on the Bears, Cubs, Bulls,
+          and Blackhawks! In my free time, I love to spend time with my family,
+          play games, and play golf!
         </p>
         <div className="mt-10 flex flex-col gap-y-10 justify-center md:flex-row md:flex-wrap md:gap-x-20">
           <Links
