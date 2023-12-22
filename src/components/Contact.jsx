@@ -25,7 +25,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="contact-container m-2 scroll-mt-8">
+    <section id="contact" className="contact-container m-2 scroll-mt-32">
       <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-4 text-center font-bold">
         Contact
       </h1>
