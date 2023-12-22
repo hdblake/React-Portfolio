@@ -2,11 +2,12 @@ import Links from "./Links.jsx";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FilePresentIcon from "@mui/icons-material/FilePresent";
+import { SiFrontendmentor } from "react-icons/si";
 import Resume from "../images/My-Resume.pdf";
 
 export default function About() {
   return (
-    <section id="about" className="about-container scroll-mt-36">
+    <section id="about" className="about-container scroll-mt-32">
       <h1 className="text-3xl md:text-4xl text-main underline decoration-2 decoration-accent1 mb-4 text-center font-bold">
         About Me
       </h1>
@@ -37,6 +38,11 @@ export default function About() {
             icon={<LinkedInIcon />}
           />
           <Links url={Resume} name={"Resume"} icon={<FilePresentIcon />} />
+          <Links
+            url={"https://www.frontendmentor.io/profile/hdblake"}
+            name={"Frontend Mentor"}
+            icon={<SiFrontendmentor />}
+          />
         </div>
       </div>
     </section>
